@@ -13,13 +13,5 @@
 
 var tables = document.getElementsByTagName("table");
 
-var content = document.getElementById("contentBlock");
-var surveyLink = tables[7].childNodes[1].childNodes[20].childNodes[3];
-surveyLink.childNodes[1].style.color = "black";
-content.innerHTML = surveyLink.innerHTML + "<br />" + content.innerHTML;
-
 document.getElementsByClassName("communaPagePartners")[0].parentNode.style.display = "none";
 tables[6].childNodes[1].childNodes[2].childNodes[3].style.display = "none";
-
-addOnMouseOver(document.getElementsByClassName("vColor"));
-addOnMouseOver(document.getElementsByClassName("rColor"));
